@@ -112,7 +112,6 @@ button {
 }
 .card {
     height: 200px;
-    
     background-color: white;
     padding: 0px 2ch;
     border-left: 8px solid rgb(196, 180, 2);
@@ -124,4 +123,20 @@ button {
 .card img {
     width: 25px;
     height: 25px;
+}
+
+.card .project-name {
+    font-weight: bold;
+}
+
+.announcement-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.trending-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
 }
