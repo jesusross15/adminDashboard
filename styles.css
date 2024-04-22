@@ -154,13 +154,13 @@ h1 {
     grid-area: 2 / 2 / 4 / 4;
 }
 .card {
-    height: 200px;
     background-color: white;
     padding: 20px;
     border-left: 8px solid rgb(225, 195, 1);
     border-radius: 8px;
     margin: 15px;
     box-shadow: 0px 2px 5px rgb(210, 209, 209);
+    transition: all 0.5s;
 }
 
 .card:hover {
@@ -186,24 +186,20 @@ h1 {
 
 .card-section {
     display: grid;
-    grid-column: 1 / 2;
+    gap: 10px;
     grid-template-columns: 1fr 1fr;
+    grid-auto-rows: max-content;
 }
 
 
-.card {
-display: flex;
-flex-direction: column;
-box-shadow: 0px 2px 5px rgb(210, 209, 209)
-}
-
-.card img {
+.card-icons {
     display: flex;
-    flex-direction: row;
+    justify-content: end;
+    gap: 5px;
 }
 
-.card h3 {
-    grid-area: 1 / -1;
+.card-section-title {
+grid-column: 1 / -1;
 }
 
 /* Announcement Section */
